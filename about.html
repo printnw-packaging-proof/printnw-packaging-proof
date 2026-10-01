@@ -6,6 +6,8 @@
 <meta name="robots" content="noindex, nofollow">
 <title>About Print NW | Packaging Team &amp; Experience</title>
 <meta name="description" content="Get to know the people, experience and collaborative approach behind Print NW packaging, based in Lakewood, WA, serving the Pacific Northwest and western U.S.">
+<link rel="preload" as="image" href="uploads/print-nw-about-desktop-hero-poster.jpg" media="(min-width: 768px)" fetchpriority="high">
+<link rel="preload" as="image" href="uploads/print-nw-packaging-sheet-feeder-process-hero-poster.jpg" media="(max-width: 767px)" fetchpriority="high">
 <script src="./support.js"></script>
 </head>
 <body>
@@ -116,7 +118,8 @@
 
   <!-- ===== HERO ===== -->
   <section data-screen-label="About Hero" style="position:relative; background:#0d0d0d; color:#ffffff; overflow:hidden;">
-    <video class="pnw-about-hero-video" ref="{{ setVideoEl }}" preload="auto" autoplay="" loop="" muted="" playsinline="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center center;"></video>
+    <img class="pnw-about-hero-video" sc-camel-src="{{ heroPosterSrc }}" alt="" aria-hidden="true" decoding="sync" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center center;">
+    <video class="pnw-about-hero-video" ref="{{ setVideoEl }}" preload="auto" autoplay="" loop="" muted="" playsinline="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center center; opacity:0;"></video>
     <div style="position:relative; max-width:1280px; margin:0 auto; padding:72px 32px 80px;">
       <div style="max-width:680px; background:rgba(0,0,0,0.9); padding:48px; display:inline-block;">
         <h1 class="pnw-hero-h1" style="font-family:'Oswald',sans-serif; font-size:clamp(32px,4.6vw,52px); font-weight:600; line-height:1.05; letter-spacing:0.01em; margin:0; text-transform:uppercase;">Great packaging starts<br class="pnw-hero-br"> with good people.</h1>
@@ -278,8 +281,22 @@ class Component extends DCLogic {
     console.error('[Print NW] Hero video failed to load:', (v && (v.currentSrc || v.getAttribute('src'))) || '(no src)', err ? 'MediaError code ' + err.code + (err.message ? ' - ' + err.message : '') : '');
   };
 
+
+  armHeroReveal = (el) => {
+    if (!el || el.__pnwReveal) return;
+    el.__pnwReveal = true;
+    const show = () => {
+      if (el.paused || el.style.opacity === '1') return;
+      if (this.heroArmedSrc && el.currentSrc !== this.heroArmedSrc) return;
+      el.style.opacity = '1';
+    };
+    el.addEventListener('playing', () => { if (el.requestVideoFrameCallback) el.requestVideoFrameCallback(show); });
+    el.addEventListener('timeupdate', () => { if (el.currentTime > 0) show(); });
+  };
+
   setVideoEl = (el) => {
     this.videoEl = el;
+    this.armHeroReveal(el);
     if (el && !el.__pnwErr) { el.__pnwErr = true; el.addEventListener('error', this.onHeroVideoError); }
     if (el) {
       el.muted = true;
@@ -289,23 +306,14 @@ class Component extends DCLogic {
     }
   };
 
-  heroPosters = {
-    'uploads/print-nw-packaging-sheet-feeder-process-hero.mp4': 'uploads/print-nw-packaging-sheet-feeder-process-hero-poster.jpg',
-    'uploads/print-nw-who-we-are-hero.mp4': 'uploads/print-nw-about-desktop-hero-poster.jpg',
-  };
-  setHeroPoster = (path) => {
-    const v = this.videoEl;
-    if (!v) return;
-    const poster = this.heroPosters[path];
-    if (poster) v.setAttribute('poster', poster); else v.removeAttribute('poster');
-  };
-
   loadHero = (path) => {
     if (this.state.heroVideoSrc === path) return;
+    this.heroArmedSrc = 'pending';
     this.setState({ heroVideoSrc: path }, () => {
       if (this.videoEl) {
-        this.setHeroPoster(path);
+        this.videoEl.style.opacity = '0';
         this.videoEl.src = path;
+        this.heroArmedSrc = this.videoEl.src;
         this.videoEl.muted = true;
         this.videoEl.loop = true;
         this.videoEl.play().catch(() => {});
@@ -340,7 +348,7 @@ class Component extends DCLogic {
     const heroVideoSrc = this.state.heroVideoSrc;
     const accent = this.props.accentColor || '#97d700';
     return {
-      accent, heroVideoSrc, setVideoEl: this.setVideoEl,
+      accent, heroVideoSrc, setVideoEl: this.setVideoEl, heroPosterSrc: window.matchMedia('(min-width: 768px)').matches ? 'uploads/print-nw-about-desktop-hero-poster.jpg' : 'uploads/print-nw-packaging-sheet-feeder-process-hero-poster.jpg',
       menuOpen: this.state.menuOpen,
       menuClosed: !this.state.menuOpen,
       menuButtonLabel: this.state.menuOpen ? 'Close menu' : 'Open menu',
