@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Custom Packaging Process: Planning to Production | Print NW</title>
+<meta name="description" content="See how Print NW plans, designs, prototypes, produces and scales packaging through a collaborative process built for better decisions and smoother production.">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;}
+  body{margin:0;background:#f4f3ee;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce) { .pnw-spin-icon { animation: none; } }
+  @media (max-width: 899px) {
+    .pnw-desktop-nav { display: none !important; }
+    .pnw-hamburger-btn { display: flex !important; }
+  }
+  @media (max-width: 360px) {
+    .pnw-tagline { font-size: 7.5px !important; letter-spacing: 0.13em !important; }
+  }
+  @media (max-width: 767px) {
+    .pnw-hero-h1 { font-size: clamp(32.5px, calc(29.59px + 0.748vw), 35.33px) !important; }
+    .pnw-step-outer { padding: 0 16px !important; }
+    .pnw-step-row { gap: 16px !important; }
+    .pnw-step-timeline { width: 48px !important; padding: 56px 0 !important; }
+    .pnw-step-circle { width: 48px !important; height: 48px !important; }
+    .pnw-step-number { font-size: 18px !important; }
+    .pnw-step-content { padding: 56px 0 !important; }
+    .pnw-step-topics { grid-template-columns: 1fr !important; row-gap: 28px !important; margin-top: 40px !important; }
+  }
+  @media (max-width: 767px) {
+    .pnw-cta-outer { flex-direction: column; align-items: center !important; text-align: center; padding: 32px 24px 56px !important; gap: 24px !important; }
+    .pnw-cta-lead { flex-direction: column !important; min-width: 0 !important; width: 100%; justify-content: center !important; align-items: center !important; padding-right: 0 !important; gap: 16px !important; }
+    .pnw-cta-lead h2 { max-width: none !important; width: auto !important; }
+    .pnw-cta-divider { display: none !important; }
+    .pnw-cta-secondary { padding-left: 0 !important; width: 100%; }
+    .pnw-cta-secondary p { max-width: 420px !important; margin-left: auto !important; margin-right: auto !important; }
+    .pnw-cta-btn { white-space: normal !important; }
+  }
+  @media (max-width: 899px) {
+    .pnw-footer-grid { padding: 34px 24px 30px !important; gap: 20px !important; }
+    .pnw-footer-tagline { white-space: nowrap; }
+  }
+  @media (max-width: 520px) {
+    .pnw-footer-nav { gap: 10px !important; }
+    .pnw-footer-contact { gap: 8px !important; }
+  }
+  @media (max-width: 300px) {
+    .pnw-footer-tagline { font-size: 7.5px !important; letter-spacing: 0.14em !important; }
+  }
+</style>
+</helmet>
+<template id="__bundler_thumbnail">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <rect width="100" height="100" fill="#0d0d0d"></rect>
+    <rect x="30" y="30" width="40" height="40" rx="4" fill="none" stroke="#97d700" stroke-width="3"></rect>
+    <text x="50" y="57" font-family="Arial, sans-serif" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">PNW</text>
+  </svg>
+</template>
+<div data-screen-label="Process" style="--accent: {{ accent }}; font-family:'Archivo',sans-serif; color:#0d0d0d; background:#f4f3ee; -webkit-font-smoothing:antialiased;">
+
+  <!-- ===== HEADER ===== -->
+  <header style="position:sticky; top:0; z-index:50; background:#0d0d0d; border-bottom:1px solid #1d1d1d;">
+    <div style="max-width:1440px; margin:0 auto; padding:18px 24px; display:flex; align-items:center; justify-content:space-between; gap:24px;">
+      <div style="line-height:1;">
+        <img src="uploads/PrintNW_White.png" alt="Print NW" style="height:41px; width:auto; display:block;">
+        <div class="pnw-tagline" style="font-size:9px; font-weight:700; letter-spacing:0.18em; color:var(--accent,#97d700); margin-top:8px; white-space:nowrap;">CUSTOM PACKAGING. DONE RIGHT.</div>
+      </div>
+      <nav class="pnw-desktop-nav" style="display:flex; align-items:center; gap:30px;">
+        <a href="index.html" style="font-size:13px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none;">HOME</a>
+        <a href="packaging.html" style="font-size:13px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none;">PACKAGING</a>
+        <a href="#" style="font-size:13px; font-weight:700; letter-spacing:0.08em; color:var(--accent,#97d700); text-decoration:none;">PROCESS</a>
+        <a href="about.html" style="font-size:13px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none;">WHO WE ARE</a>
+        <a href="contact.html" style="display:inline-flex; align-items:center; gap:9px; border:1px solid var(--accent,#97d700); color:var(--accent,#97d700); font-size:12px; font-weight:800; letter-spacing:0.07em; padding:11px 18px; text-decoration:none;" style-hover="background:var(--accent,#97d700); color:#0d0d0d;">CONTACT US
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+        </a>
+      </nav>
+      <button type="button" class="pnw-hamburger-btn" aria-label="{{ menuButtonLabel }}" aria-expanded="{{ menuOpen }}" aria-controls="pnw-process-mobile-nav" onClick="{{ toggleMenu }}" style="display:none; align-items:center; justify-content:center; width:40px; height:40px; flex-shrink:0; background:transparent; border:1px solid #3a3a37; padding:0; cursor:pointer;">
+        <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#e8e8e6" stroke-width="2" stroke-linecap="round"><line x1="5" y1="5" x2="19" y2="19"></line><line x1="19" y1="5" x2="5" y2="19"></line></svg>
+        </sc-if>
+        <sc-if value="{{ menuClosed }}" hint-placeholder-val="{{ true }}">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#e8e8e6" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </sc-if>
+      </button>
+    </div>
+    <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
+      <nav id="pnw-process-mobile-nav" aria-label="Mobile" style="position:absolute; top:100%; left:0; right:0; background:#0d0d0d; border-top:1px solid #1d1d1d; border-bottom:1px solid #1d1d1d; display:flex; flex-direction:column; align-items:flex-end; padding:8px 24px 18px;">
+        <a href="index.html" onClick="{{ closeMenu }}" style="font-size:16px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none; padding:19px 0; border-bottom:1px solid #1d1d1d; text-align:right; width:100%;">HOME</a>
+        <a href="packaging.html" onClick="{{ closeMenu }}" style="font-size:16px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none; padding:19px 0; border-bottom:1px solid #1d1d1d; text-align:right; width:100%;">PACKAGING</a>
+        <a href="#" onClick="{{ closeMenu }}" style="font-size:16px; font-weight:700; letter-spacing:0.08em; color:var(--accent,#97d700); text-decoration:none; padding:19px 0; border-bottom:1px solid #1d1d1d; text-align:right; width:100%;">PROCESS</a>
+        <a href="about.html" onClick="{{ closeMenu }}" style="font-size:16px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none; padding:19px 0; border-bottom:1px solid #1d1d1d; text-align:right; width:100%;">WHO WE ARE</a>
+        <a href="contact.html" onClick="{{ closeMenu }}" style="font-size:16px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none; padding:19px 0; text-align:right; width:100%;">CONTACT US</a>
+      </nav>
+    </sc-if>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section data-screen-label="Process Hero" style="position:relative; background:#0d0d0d; color:#ffffff; overflow:hidden;">
+    <video ref="{{ setVideoEl }}" src="uploads/print-nw-packaging-sheet-feeder-process-hero.mp4" preload="auto" poster="uploads/print-nw-packaging-sheet-feeder-process-hero-poster.jpg" autoplay="" loop="" muted="" playsinline="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center center;"></video>
+    <div style="position:relative; max-width:1280px; margin:0 auto; padding:72px 32px 80px;">
+      <div style="max-width:680px; background:rgba(0,0,0,0.9); padding:48px; display:inline-block;">
+        <h1 class="pnw-hero-h1" style="font-family: 'Oswald',sans-serif; font-size: clamp(32px,4.6vw,52px); font-weight: 600; line-height: 1.05; letter-spacing: 0.01em; margin: 0; text-transform: uppercase;">Great packaging doesn't<br />happen by accident.</h1>
+        <div style="width:96px; height:2px; background:var(--accent,#97d700); margin:34px 0 30px;"></div>
+        <p style="font-size: 15px; line-height: 1.65; color: #FFFFFF; margin: 0; max-width: 460px; font-weight: 700;">It starts with the right process.</p>
+        <p style="font-size: 15px; line-height: 1.65; color: #FFFFFF; margin: 16px 0 0; max-width: 460px">Every step of our process is designed to help you make confident packaging decisions while avoiding the costly surprises that often appear later in production.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS STEPS ===== -->
+  <sc-for list="{{ steps }}" as="step" hint-placeholder-count="5">
+    <section data-screen-label="{{ step.label }}" style="background:{{ step.bg }}; color:{{ step.fg }}; overflow-x:hidden;">
+      <div class="pnw-step-outer" style="max-width:1280px; margin:0 auto; padding:0 32px;">
+        <div class="pnw-step-row" style="display:flex; align-items:stretch; gap:56px;">
+
+          <!-- TIMELINE COLUMN -->
+          <div class="pnw-step-timeline" style="width:84px; flex-shrink:0; position:relative; padding:112px 0;" ref="{{ step.setColRef }}">
+            <div style="position:absolute; top:0; bottom:0; left:50%; width:1px; background:rgba(151,215,0,0.35); transform:translateX(-50%);"></div>
+            <div style="position:absolute; top:0; left:50%; width:2px; height:0%; background:var(--accent,#97d700); transform:translateX(-50%);" ref="{{ step.setFillRef }}"></div>
+            <div class="pnw-step-circle" style="position:relative; z-index:1; margin-top:8px; width:84px; height:84px; border-radius:50%; border:2px solid var(--accent,#97d700); background:{{ step.bg }}; display:flex; align-items:center; justify-content:center;">
+              <span class="pnw-step-number" style="font-family:'Oswald',sans-serif; font-size:32px; font-weight:700; color:var(--accent,#97d700);">{{ step.number }}</span>
+            </div>
+          </div>
+
+          <!-- CONTENT COLUMN -->
+          <div class="pnw-step-content" style="flex:1; min-width:0; padding:112px 0;">
+            <h2 style="font-family:'Oswald',sans-serif; font-size:clamp(32px,3.8vw,44px); font-weight:700; line-height:1.0; letter-spacing:0.01em; text-transform:uppercase; margin:0;">{{ step.title }}</h2>
+            <div style="font-size:19px; font-weight:700; letter-spacing:0; margin:14px 0 0;">{{ step.subtitle }}</div>
+            <div style="width:56px; height:2px; background:var(--accent,#97d700); margin:16px 0 0;"></div>
+            <p style="font-size:15px; line-height:1.65; color:{{ step.textSecondary }}; margin:28px 0 0; max-width:640px;">{{ step.description }}</p>
+
+            <div class="pnw-step-topics" style="display:grid; grid-template-columns:repeat(4,1fr); column-gap:40px; row-gap:32px; margin-top:64px;">
+              <sc-for list="{{ step.topics }}" as="topic" hint-placeholder-count="4">
+                <div>
+                  <h3 style="font-size:13.5px; font-weight:800; letter-spacing:0.04em; text-transform:uppercase; margin:0; line-height:1.3;">{{ topic.heading }}</h3>
+                  <p style="font-size:14px; line-height:1.6; color:{{ step.textSecondary }}; margin:10px 0 0;">{{ topic.body }}</p>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </sc-for>
+
+  <!-- ===== CTA BAND ===== -->
+  <section data-screen-label="Process CTA" style="background:#0d0d0d; color:#ffffff; scroll-margin-top:90px; overflow-x:hidden;">
+    <div class="pnw-cta-outer" style="max-width:1280px; margin:0 auto; padding:36px 32px; display:flex; justify-content:center; align-items:center; gap:36px;">
+      <div class="pnw-cta-lead" style="display:flex; align-items:center; gap:22px; min-width:280px; flex:1 1 0%; justify-content:flex-end; padding-right:8px;">
+        <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+        <h2 style="font-family: 'Oswald',sans-serif; font-size: clamp(22px,2.6vw,28px); font-weight: 600; line-height: 1.2; letter-spacing: 0.01em; margin: 0; max-width: 290px; text-transform: uppercase">Ready to See Your Packaging Come to Life?</h2>
+      </div>
+      <div class="pnw-cta-divider" style="width:1px; align-self:stretch; background:#2a2a28;"></div>
+      <div class="pnw-cta-secondary" style="flex-shrink:0; padding-left:8px; flex:1 1 0%;">
+        <p style="font-size:13px; line-height:1.5; color:#cfcfca; margin:0 0 14px;">Start with a complimentary prototype.<br>No obligation. Just answers.</p>
+        <a href="contact.html#contact-form" class="pnw-cta-btn" style="display:inline-flex; align-items:center; gap:10px; white-space:nowrap; background:transparent; color:var(--accent,#97d700); border:1px solid var(--accent,#97d700); font-size:12px; font-weight:800; letter-spacing:0.07em; padding:12px 22px; text-decoration:none; box-sizing:border-box;" style-hover="background:var(--accent,#97d700); color:#0d0d0d;">START YOUR PROTOTYPE
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer style="background:#0d0d0d; color:#ffffff; border-top:1px solid #1d1d1d; overflow-x:hidden;">
+    <div class="pnw-footer-grid" style="max-width:1280px; margin:0 auto; padding:40px 32px 34px; display:flex; flex-direction:column; align-items:center; gap:22px; text-align:center;">
+      <div class="pnw-footer-brand" style="line-height:1;">
+        <img src="uploads/PrintNW_White.png" alt="Print NW" style="height:34px; width:auto; display:block; margin:0 auto;">
+        <div class="pnw-footer-tagline" style="font-size:9.5px; font-weight:700; letter-spacing:0.18em; color:var(--accent,#97d700); margin-top:9px;">CUSTOM PACKAGING. DONE RIGHT.</div>
+      </div>
+      <nav class="pnw-footer-nav" style="display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:16px;">
+        <a href="index.html" style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:#a8a8a3; text-decoration:none;" style-hover="color:#ffffff">HOME</a>
+        <span style="font-size:10px; color:#3a3a37;" aria-hidden="true">·</span>
+        <a href="packaging.html" style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:#a8a8a3; text-decoration:none;" style-hover="color:#ffffff">PACKAGING</a>
+        <span style="font-size:10px; color:#3a3a37;" aria-hidden="true">·</span>
+        <a href="#" style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:#a8a8a3; text-decoration:none;" style-hover="color:#ffffff">PROCESS</a>
+        <span style="font-size:10px; color:#3a3a37;" aria-hidden="true">·</span>
+        <a href="about.html" style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:#a8a8a3; text-decoration:none;" style-hover="color:#ffffff">WHO WE ARE</a>
+        <span style="font-size:10px; color:#3a3a37;" aria-hidden="true">·</span>
+        <a href="contact.html" style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:#a8a8a3; text-decoration:none;" style-hover="color:#ffffff">CONTACT</a>
+      </nav>
+      <div class="pnw-footer-contact" style="display:flex; flex-direction:column; align-items:center; gap:7px;">
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=9914+32nd+Ave+S+Lakewood+WA+98499" target="_blank" rel="noopener" style="font-size:13.5px; color:#d8d8d3; text-decoration:none;" style-hover="color:#ffffff">9914 32nd Ave S, Lakewood, WA 98499</a>
+        <a href="tel:+12532842300" style="font-size:13.5px; color:#d8d8d3; text-decoration:none;" style-hover="color:#ffffff">(253) 284-2300</a>
+        <a href="mailto:packaging@printnw.net" style="font-size:13.5px; color:#d8d8d3; text-decoration:none;" style-hover="color:#ffffff">packaging@printnw.net</a>
+      </div>
+      <div style="font-size:12px; letter-spacing:0.04em; color:#7a7a76;">© 2026 Print NW. All rights reserved.</div>
+    </div>
+  </footer>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;accentColor&quot;: { &quot;editor&quot;: &quot;color&quot;, &quot;default&quot;: &quot;#97d700&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;options&quot;: [&quot;#97d700&quot;, &quot;#ff5a1f&quot;, &quot;#22d3a6&quot;, &quot;#3b82f6&quot;] }
+}">
+class Component extends DCLogic {
+  cols = [];
+  fills = [];
+  rafId = null;
+  state = { heroVideoSrc: null, menuOpen: false };
+  videoEl = null;
+
+  toggleMenu = () => this.setState(s => ({ menuOpen: !s.menuOpen }));
+  closeMenu = () => this.setState({ menuOpen: false });
+
+  onHeroVideoError = (e) => {
+    const v = e.currentTarget, err = v && v.error;
+    console.error('[Print NW] Hero video failed to load:', (v && (v.currentSrc || v.getAttribute('src'))) || '(no src)', err ? 'MediaError code ' + err.code + (err.message ? ' - ' + err.message : '') : '');
+  };
+
+  setVideoEl = (el) => {
+    this.videoEl = el;
+    if (el && !el.__pnwErr) { el.__pnwErr = true; el.addEventListener('error', this.onHeroVideoError); }
+    if (el) {
+      el.muted = true;
+      el.loop = true;
+      el.playsInline = true;
+      el.play().catch(() => {});
+    }
+  };
+
+  componentDidMount() {
+    this.onScroll = () => {
+      if (this.rafId) return;
+      this.rafId = requestAnimationFrame(() => {
+        this.rafId = null;
+        this.updateLines();
+      });
+    };
+    window.addEventListener('scroll', this.onScroll, { passive: true });
+    window.addEventListener('resize', this.onScroll);
+    this.updateLines();
+
+    this.onResizeMenu = () => {
+      if (window.innerWidth >= 900 && this.state.menuOpen) this.setState({ menuOpen: false });
+    };
+    window.addEventListener('resize', this.onResizeMenu);
+
+    this.onKeyDown = (e) => {
+      if (e.key === 'Escape' && this.state.menuOpen) this.setState({ menuOpen: false });
+    };
+    document.addEventListener('keydown', this.onKeyDown);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.onScroll);
+    window.removeEventListener('resize', this.onScroll);
+    window.removeEventListener('resize', this.onResizeMenu);
+    document.removeEventListener('keydown', this.onKeyDown);
+    if (this.rafId) cancelAnimationFrame(this.rafId);
+  }
+
+  updateLines() {
+    const triggerY = window.innerHeight * 0.6;
+    this.cols.forEach((col, i) => {
+      const fill = this.fills[i];
+      if (!col || !fill) return;
+      const rect = col.getBoundingClientRect();
+      let progress = (triggerY - rect.top) / rect.height;
+      progress = Math.max(0, Math.min(1, progress));
+      fill.style.height = (progress * 100) + '%';
+    });
+  }
+
+  renderVals() {
+    const heroVideoSrc = this.state.heroVideoSrc;
+    const accent = this.props.accentColor || '#97d700';
+    const lightBg = '#FAF9F5';
+    const darkBg = '#0d0d0d';
+    const lightText = '#46453f';
+    const darkText = '#bdbdb8';
+
+    const steps = [
+      {
+        number: '1',
+        label: 'Plan',
+        title: 'Plan',
+        subtitle: 'Smarter Questions = Smarter Packaging',
+        description: "Successful packaging starts long before production. A clear understanding of your business, brand positioning, product requirements, and operational goals creates packaging solutions built for performance, efficiency, and long-term growth.",
+        bg: lightBg,
+        fg: '#0d0d0d',
+        textSecondary: lightText,
+        topics: [
+          { heading: 'Business Discovery', body: 'Every packaging solution starts with understanding your business, priorities, and the unique challenges behind your operation.' },
+          { heading: 'Brand Positioning', body: 'Packaging serves a purpose. Whether it needs to protect, perform, blend in, or stand out. Understanding your intentions shapes smarter packaging decisions.' },
+          { heading: 'Product Realities', body: 'Better packaging starts with understanding the realities of your product. How it moves, ships, and functions informs the entire packaging process.' },
+          { heading: 'Budget & Timeline', body: 'Packaging projects perform best when expectations, timing, and production realities are aligned from the start.' },
+        ],
+      },
+      {
+        number: '2',
+        label: 'Design',
+        title: 'Design',
+        subtitle: 'Designed for Function. Optimized for Production.',
+        description: "Great packaging starts with your creative vision. From there, your artwork must be translated into a design optimized for production. This critical part of the packaging process requires specialized expertise, and it's where our team excels.",
+        bg: darkBg,
+        fg: '#ffffff',
+        textSecondary: darkText,
+        topics: [
+          { heading: 'Structural Design, Handled.', body: 'We handle the structural design process in-house, combining CAD and production expertise to help ensure everything works the way it should.' },
+          { heading: 'Production Optimization', body: 'Design optimized for print quality, substrate performance, production efficiency, and consistent results.' },
+          { heading: 'Expert Collaboration', body: 'Packaging design is reviewed and approved by the teams responsible for printing, cutting, folding, and finishing.' },
+          { heading: 'Brand Integrity', body: 'Strong design and production standards ensure your customers consistently recognize and trust your brand across every run and reorder.' },
+        ],
+      },
+      {
+        number: '3',
+        label: 'Prototype',
+        title: 'Prototype',
+        subtitle: 'See It. Test It. Approve It.',
+        description: "Prototyping brings your packaging into the real world before production even begins. Structural samples, printed proofs, and collaborative refinement help ensure your packaging looks right, functions properly, and performs exactly as intended.",
+        bg: lightBg,
+        fg: '#0d0d0d',
+        textSecondary: lightText,
+        topics: [
+          { heading: 'Brand Validation', body: 'Digitally printed proofs help ensure your colors, graphics, and overall presentation look exactly the way you envisioned.' },
+          { heading: 'Bring It to Life', body: 'Structural prototypes transform your packaging from concept into something you can physically hold, test, and experience.' },
+          { heading: 'Structural Testing', body: "Confirm your packaging performs the way it's supposed to by verifying it protects, ships, displays, and functions in the real world." },
+          { heading: 'Getting It Right', body: "If something isn't right, we make it right. Every detail is refined collaboratively until you feel completely confident in the final prototype." },
+        ],
+      },
+      {
+        number: '4',
+        label: 'Produce',
+        title: 'Produce',
+        subtitle: 'Reliable Production. Consistent Results.',
+        description: "Production is where strategy, planning, and manufacturing come together. Production planning, in-house finishing, quality control, and coordinated workflows all work together to deliver consistent, dependable results from start to finish.",
+        bg: darkBg,
+        fg: '#ffffff',
+        textSecondary: darkText,
+        topics: [
+          { heading: 'Production Strategy', body: "Production methods are carefully matched to your project's scale, finish requirements, timeline, and production goals." },
+          { heading: 'In-House Finishing', body: 'Die-cutting, folding, gluing, foil stamping, and lamination are handled in-house for tighter quality control, faster turnaround, and more consistent results.' },
+          { heading: 'Quality Control', body: 'Color accuracy, structural checks, and quality inspections happen alongside production, not after.' },
+          { heading: 'On-Time Delivery', body: 'Whether you are shipping to a warehouse, retail location, or fulfillment partner, the ship date we promise is the ship date you get.' },
+        ],
+      },
+      {
+        number: '5',
+        label: 'Scale',
+        title: 'Scale',
+        subtitle: "Built for What's Next.",
+        description: "As your business grows, packaging needs become more complex. Scalable systems, collaborative partnerships, and adaptable production solutions must support long-term growth without compromising consistency or quality.",
+        bg: lightBg,
+        fg: '#0d0d0d',
+        textSecondary: lightText,
+        topics: [
+          { heading: 'Repeatable Results', body: 'Strong production standards and ongoing collaboration allow us to maintain consistency as your needs evolve. We know your brand. We know your quirks.' },
+          { heading: 'Built for Growth', body: 'Scalable production systems, operational support, and ongoing collaboration help your packaging grow alongside your business.' },
+          { heading: 'Solution-Oriented Partnership', body: 'Change and complexity are part of growth. Our strong systems and collaborative problem-solving allow us to adapt alongside evolving business needs.' },
+          { heading: 'Custom Solutions', body: 'No two businesses grow the same. We customize packaging solutions to support your complex needs. In fact, solving unique challenges is where we do our best work.' },
+        ],
+      },
+    ];
+
+    const stepsWithRefs = steps.map((s, i) => ({
+      ...s,
+      setColRef: (el) => { this.cols[i] = el; },
+      setFillRef: (el) => { this.fills[i] = el; },
+    }));
+
+    return {
+      accent, steps: stepsWithRefs, heroVideoSrc, setVideoEl: this.setVideoEl,
+      menuOpen: this.state.menuOpen,
+      menuClosed: !this.state.menuOpen,
+      menuButtonLabel: this.state.menuOpen ? 'Close menu' : 'Open menu',
+      toggleMenu: this.toggleMenu,
+      closeMenu: this.closeMenu,
+    };
+  }
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Custom Printed Product Packaging | Print NW</title>
+<meta name="description" content="Print NW creates custom printed product packaging for brands across the Pacific Northwest and western U.S., from folding cartons and paperboard packaging to structural design, prototyping and production.">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;}
+  body{margin:0;background:#f4f3ee;}
+  html{scroll-behavior:smooth;}
+  ::placeholder{color:#9a9a95;}
+  input:focus,select:focus,textarea:focus{outline:none;border-color:#0d0d0d;}
+  @keyframes pnw-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .pnw-marquee-track { animation: pnw-marquee 100s linear infinite; }
+  .pnw-marquee-viewport:hover .pnw-marquee-track { animation-play-state: paused; }
+  @media (prefers-reduced-motion: reduce) { .pnw-marquee-track { animation: none; } }
+  @media (max-width: 1016px) {
+    .pnw-matters-cards { grid-template-columns: repeat(2, 1fr) !important; }
+    .pnw-matters-cards > div:nth-child(3) { grid-column: 1 / -1; justify-self: center; width: 100%; max-width: calc((100% - 26px) / 2); }
+  }
+  @media (max-width: 1259px) {
+    .pnw-testimonial-cards { grid-template-columns: 1fr !important; }
+  }
+  @media (max-width: 999px) {
+    .pnw-cta-form-grid { grid-template-columns: 1fr !important; }
+  }
+  @media (max-width: 1023px) {
+    .pnw-cta-form-grid { grid-template-columns: 1fr !important; }
+    .pnw-cta-img, .pnw-cta-spacer { display: none !important; }
+    .pnw-cta-copy { background: #0d0d0d; padding: 72px 56px !important; text-align: center; }
+    .pnw-cta-copy > p, .pnw-cta-copy > div { margin-left: auto !important; margin-right: auto !important; }
+    .pnw-cta-copy > p { max-width: 500px !important; }
+    .pnw-cta-copy > div { margin-bottom: 28px !important; }
+    .pnw-cta-copy > p:nth-of-type(1) { margin-bottom: 24px !important; }
+    .pnw-cta-copy > p:nth-of-type(2) { margin-bottom: 36px !important; }
+    .pnw-cta-btn { font-size: 15px !important; padding: 12px 23px !important; }
+    .pnw-cta-btn > span { font-size: 19px !important; }
+  }
+  @media (max-width: 549px) {
+    .pnw-cta-copy { padding: 56px 28px !important; }
+    .pnw-cta-nowrap { white-space: normal !important; }
+    .pnw-cta-btn { white-space: normal !important; text-align: center; }
+  }
+  @media (max-width: 434px) {
+    .pnw-cta-copy h2 { font-size: min(26px, calc((100vw - 120px) / 12.4)) !important; }
+    .pnw-cta-nowrap { white-space: nowrap !important; }
+    .pnw-cta-btn { white-space: nowrap !important; font-size: min(15px, calc((100vw - 186px) / 14.6)) !important; line-height: 22px; padding-left: 16px !important; padding-right: 16px !important; }
+  }
+  @media (max-width: 549px) {
+    .pnw-cta-form-fields { grid-template-columns: 1fr !important; }
+  }
+  @media (max-width: 439px) {
+    .pnw-testimonial-cards { grid-template-columns: minmax(0,1fr) !important; }
+  }
+  @media (max-width: 425px) {
+    .pnw-testi-header { display: flex !important; flex-wrap: wrap !important; row-gap: 12px; }
+    .pnw-testi-header > div:first-child { flex: 1 1 100% !important; width: 100%; }
+  }
+  @media (max-width: 649px) {
+    .pnw-matters-cards { grid-template-columns: 1fr !important; justify-items: center !important; }
+    .pnw-matters-cards > div:nth-child(3) { max-width: 100% !important; }
+    .pnw-thesis { flex-direction: column; align-items: center !important; }
+    .pnw-thesis > p { text-align: center !important; }
+    .pnw-thesis-rule { display: none; }
+  }
+  @media (max-width: 899px) {
+    .pnw-desktop-nav { display: none !important; }
+    .pnw-hamburger-btn { display: flex !important; }
+  }
+  /* Desktop hero height, content stays vertically centered */
+  @media (min-width: 900px) {
+    .pnw-hero-center { padding-top: 146px !important; padding-bottom: 130px !important; max-width: 1180px !important; }
+    .pnw-hero-center h1 { font-size: 60px !important; }
+  }
+  /* forced two-line break only where the first line comfortably fits; below that the headline wraps naturally as one block */
+  @media (max-width: 1199px) {
+    .pnw-h1-br { display: none; }
+  }
+  @media (max-width: 360px) {
+    .pnw-tagline { font-size: 7.5px !important; letter-spacing: 0.13em !important; }
+  }
+  @media (max-width: 899px) {
+    .pnw-footer-grid { padding: 34px 24px 30px !important; gap: 20px !important; }
+    .pnw-footer-tagline { white-space: nowrap; }
+  }
+  @media (max-width: 520px) {
+    .pnw-footer-nav { gap: 10px !important; }
+    .pnw-footer-contact { gap: 8px !important; }
+  }
+  @media (max-width: 300px) {
+    .pnw-footer-tagline { font-size: 7.5px !important; letter-spacing: 0.14em !important; }
+  }
+  @media (min-width: 1201px) {
+    .pnw-process-content { min-height: 560px !important; }
+  }
+  @media (min-width: 1300px) {
+    .pnw-process-photo { bottom: auto !important; height: 140% !important; }
+  }
+  @media (max-width: 979px) {
+    .pnw-process-overlay { background: linear-gradient(90deg,#0d0d0d 0%,rgba(13,13,13,0.98) 40%,rgba(13,13,13,0.85) 55%,rgba(13,13,13,0.6) 70%,rgba(13,13,13,0.3) 85%,rgba(13,13,13,0.1) 100%) !important; }
+  }
+  @media (max-width: 575px) {
+    .pnw-process-overlay { background: linear-gradient(90deg,#0d0d0d 0%,rgba(13,13,13,0.97) 38%,rgba(13,13,13,0.88) 68%,rgba(13,13,13,0.55) 100%) !important; }
+  }
+</style>
+<script src="./image-slot.js"></script>
+<meta name="ext-resource-dependency" content="uploads/print-nw-blanker-packaging-hero.mp4">
+</helmet>
+<template id="__bundler_thumbnail">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <rect width="100" height="100" fill="#0d0d0d"></rect>
+    <rect x="30" y="30" width="40" height="40" rx="4" fill="none" stroke="#97d700" stroke-width="3"></rect>
+    <text x="50" y="57" font-family="Arial, sans-serif" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">PNW</text>
+  </svg>
+</template>
+<div data-screen-label="Home" style="--accent: {{ accent }}; font-family:'Archivo',sans-serif; color:#0d0d0d; background:#f4f3ee; -webkit-font-smoothing:antialiased;">
+
+  <!-- ===== HEADER ===== -->
+  <header style="position:sticky; top:0; z-index:50; background:#0d0d0d; border-bottom:1px solid #1d1d1d;">
+    <div style="max-width:1440px; margin:0 auto; padding:18px 24px; display:flex; align-items:center; justify-content:space-between; gap:24px;">
+      <div style="line-height:1;">
+        <img src="uploads/PrintNW_White.png" alt="Print NW" style="height:41px; width:auto; display:block;">
+        <div class="pnw-tagline" style="font-size:9px; font-weight:700; letter-spacing:0.18em; color:var(--accent,#97d700); margin-top:8px; white-space:nowrap;">CUSTOM PACKAGING. DONE RIGHT.</div>
+      </div>
+      <nav class="pnw-desktop-nav" style="display:flex; align-items:center; gap:clamp(14px, 1.7vw, 30px); min-width:0;">
+        <a href="#" style="font-size:13px; font-weight:700; letter-spacing:0.08em; color:var(--accent,#97d700); text-decoration:none;">HOME</a>
+        <a href="packaging.html" style="font-size:13px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none;">PACKAGING</a>
+        <a href="process.html" style="font-size:13px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none;">PROCESS</a>
+        <a href="about.html" style="font-size:13px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none;">WHO WE ARE</a>
+        <a href="contact.html" style="display:inline-flex; align-items:center; gap:9px; border:1px solid var(--accent,#97d700); color:var(--accent,#97d700); font-size:12px; font-weight:800; letter-spacing:0.07em; padding:11px 18px; text-decoration:none;" style-hover="background:var(--accent,#97d700); color:#0d0d0d;">CONTACT US
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+        </a>
+      </nav>
+      <button type="button" class="pnw-hamburger-btn" aria-label="{{ menuButtonLabel }}" aria-expanded="{{ menuOpen }}" aria-controls="pnw-home-mobile-nav" onClick="{{ toggleMenu }}" style="display:none; align-items:center; justify-content:center; width:40px; height:40px; flex-shrink:0; background:transparent; border:1px solid #3a3a37; padding:0; cursor:pointer;">
+        <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#e8e8e6" stroke-width="2" stroke-linecap="round"><line x1="5" y1="5" x2="19" y2="19"></line><line x1="19" y1="5" x2="5" y2="19"></line></svg>
+        </sc-if>
+        <sc-if value="{{ menuClosed }}" hint-placeholder-val="{{ true }}">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#e8e8e6" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </sc-if>
+      </button>
+    </div>
+    <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
+      <nav id="pnw-home-mobile-nav" aria-label="Mobile" style="position:absolute; top:100%; left:0; right:0; background:#0d0d0d; border-top:1px solid #1d1d1d; border-bottom:1px solid #1d1d1d; display:flex; flex-direction:column; align-items:flex-end; padding:8px 24px 18px;">
+        <a href="#" onClick="{{ closeMenu }}" style="font-size:16px; font-weight:700; letter-spacing:0.08em; color:var(--accent,#97d700); text-decoration:none; padding:19px 0; border-bottom:1px solid #1d1d1d; text-align:right; width:100%;">HOME</a>
+        <a href="packaging.html" onClick="{{ closeMenu }}" style="font-size:16px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none; padding:19px 0; border-bottom:1px solid #1d1d1d; text-align:right; width:100%;">PACKAGING</a>
+        <a href="process.html" onClick="{{ closeMenu }}" style="font-size:16px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none; padding:19px 0; border-bottom:1px solid #1d1d1d; text-align:right; width:100%;">PROCESS</a>
+        <a href="about.html" onClick="{{ closeMenu }}" style="font-size:16px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none; padding:19px 0; border-bottom:1px solid #1d1d1d; text-align:right; width:100%;">WHO WE ARE</a>
+        <a href="contact.html" onClick="{{ closeMenu }}" style="font-size:16px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none; padding:19px 0; text-align:right; width:100%;">CONTACT US</a>
+      </nav>
+    </sc-if>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section data-screen-label="Hero" style="position:relative; background:#0d0d0d; color:#ffffff; overflow:hidden;">
+    <!-- full-bleed hero video, centered so cover-cropping happens evenly around the source center -->
+    <video ref="{{ setVideoEl }}" src="uploads/print-nw-blanker-packaging-hero.mp4" preload="auto" poster="uploads/print-nw-blanker-packaging-hero-poster.jpg" autoplay="" loop="" muted="" playsinline="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center center;"></video>
+    <!-- uniform dark scrim: text dominant, machinery still readable -->
+    <div style="position:absolute; inset:0; pointer-events:none; background:rgba(0,0,0,0.75);"></div>
+    <div style="position:relative; max-width:1280px; margin:0 auto;">
+      <div class="pnw-hero-center" style="padding:64px 40px 48px; max-width:720px; margin:0 auto; text-align:center;">
+        <h1 style="font-family: 'Oswald',sans-serif; font-size: 44px; font-weight: 600; line-height: 1.04; letter-spacing: 0.02em; margin: 0; text-transform: uppercase">Great packaging is more than <br class="pnw-h1-br">a good idea.</h1>
+        <div style="width:96px; height:2px; background:var(--accent,#97d700); margin:34px auto 30px;"></div>
+        <p style="font-size:16px; line-height:1.65; color:#ffffff; margin:0 auto 15px; max-width:700px;">We create custom printed product packaging, from folding cartons and paperboard packaging to sleeves, inserts, labels, and more. You need packaging that protects your product, represents your brand, and performs in the real world.</p>
+        <p style="font-size:16px; line-height:1.65; color:#ffffff; margin:0 auto 30px; max-width:700px;"><strong style="font-weight:700; color:#ffffff;">That's where Print NW comes in.</strong></p>
+        <p style="font-size:12.5px; line-height:1.35; color:#c9c9c4; margin:-8px auto 18px; max-width:760px;">Based in the Tacoma/Seattle area, serving packaging customers throughout the Pacific Northwest and western U.S.</p>
+        <div style="display:flex; gap:14px; max-width:540px; margin:0 auto; justify-content:center;">
+          <a href="contact.html#contact-form" style="flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center; gap: 10px; white-space: nowrap; background: transparent; color: #ffffff; border: 2px solid var(--accent,#97d700); font-size: 17px; font-weight: 800; letter-spacing: 0.07em; padding: 14px 26px; text-decoration: none; font-family: Oswald" style-hover="background:var(--accent,#97d700); color:#0d0d0d;">START WITH A PROTOTYPE <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="stroke: #97D700"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg></a>
+        </div>
+        <div style="display:flex; align-items:center; justify-content:center; gap:9px; margin-top:16px; color:#d4d4cf; font-size:13px;">
+          <span>Free physical prototype. No obligation. Just answers.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMPLEXITY ===== -->
+  <section data-screen-label="Complexity" style="padding: 56px 0 84px; background-color: #FAF9F5">
+    <div style="max-width: 1180px; margin: 0 auto; padding: 0 32px">
+
+      <!-- HEADER -->
+      <div style="max-width:760px;">
+        <h2 style="font-family: 'Oswald',sans-serif; font-size: clamp(26px,3.2vw,38px); font-weight: 600; line-height: 1.04; letter-spacing: 0.02em; text-transform: uppercase; margin: 0; color: #000000">We Understand What Matters</h2>
+        <div style="font-size:24px; font-weight:700; letter-spacing:0; color:#0d0d0d; margin:8px 0 0;">Efficiency. Presentation. Performance.</div>
+        <div style="width:96px; height:2px; background:var(--accent,#97d700); margin:16px 0 0;"></div>
+        <p style="font-size: 15px; line-height: 1.6; color: #0D0D0D; margin: 22px 0 0; max-width: 440px">The right packaging balances all three. Our experienced packaging team helps you make thoughtful decisions based on what matters.</p>
+      </div>
+
+      <!-- THREE CARDS -->
+      <div class="pnw-matters-cards" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:26px; margin-top:44px;">
+
+        <!-- Card 1 -->
+        <div style="display:flex; flex-direction:column; background:#ffffff; border:1px solid #e7e6df; border-radius:16px; padding:34px 30px; box-shadow:0 1px 2px rgba(13,13,13,0.04);">
+          <div style="display:flex; align-items:flex-start; gap:18px;">
+            <img src="uploads/icon-time-money.png" alt="" style="flex-shrink:0; width:76px; height:76px; display:block;">
+            <div style="padding-top:8px;">
+              <h3 style="font-size:17px; font-weight:800; line-height:1.2; letter-spacing:-0.01em; margin:0;">Maximizing Efficiency</h3>
+              <div style="width:44px; height:3px; background:var(--accent,#97d700); margin:14px 0 0;"></div>
+            </div>
+          </div>
+          <p style="font-size:14px; line-height:1.6; color:#46453f; margin:24px 0 0;">Without careful planning, inefficient layouts can increase material waste and production costs.</p>
+          <div style="border-top:1px solid #e7e6df; margin:26px 0 22px;"></div>
+          <p style="font-size:14px; line-height:1.55; font-weight:800; color:#0d0d0d; margin:0 0 2px;">Our experienced packaging team optimizes layouts early to maximize efficiency and minimize cost before a sheet ever reaches the press.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div style="display:flex; flex-direction:column; background:#ffffff; border:1px solid #e7e6df; border-radius:16px; padding:34px 30px; box-shadow:0 1px 2px rgba(13,13,13,0.04);">
+          <div style="display:flex; align-items:flex-start; gap:18px;">
+            <img src="uploads/icon-box.png" alt="" style="flex-shrink:0; width:76px; height:76px; display:block;">
+            <div style="padding-top:8px;">
+              <h3 style="font-size:17px; font-weight:800; line-height:1.2; letter-spacing:-0.01em; margin:0;">Making a Great First Impression</h3>
+              <div style="width:44px; height:3px; background:var(--accent,#97d700); margin:14px 0 0;"></div>
+            </div>
+          </div>
+          <p style="font-size:14px; line-height:1.6; color:#46453f; margin:24px 0 0;">Heavy ink coverage near critical folds can lead to cracking if the package isn't engineered correctly.</p>
+          <div style="border-top:1px solid #e7e6df; margin:26px 0 22px;"></div>
+          <p style="font-size:14px; line-height:1.55; font-weight:800; color:#0d0d0d; margin:0 0 2px;">Thoughtful scoring, grain direction, and production planning help ensure your packaging looks just as good on the shelf as it did in your original design.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div style="display:flex; flex-direction:column; background:#ffffff; border:1px solid #e7e6df; border-radius:16px; padding:34px 30px; box-shadow:0 1px 2px rgba(13,13,13,0.04);">
+          <div style="display:flex; align-items:flex-start; gap:18px;">
+            <img src="uploads/icon-shield.png" alt="" style="flex-shrink:0; width:76px; height:76px; display:block;">
+            <div style="padding-top:8px;">
+              <h3 style="font-size:17px; font-weight:800; line-height:1.2; letter-spacing:-0.01em; margin:0;">Packaging That Performs with Integrity</h3>
+              <div style="width:44px; height:3px; background:var(--accent,#97d700); margin:14px 0 0;"></div>
+            </div>
+          </div>
+          <p style="font-size:14px; line-height:1.6; color:#46453f; margin:24px 0 0;">Coatings, adhesives, and finishing methods all have to work together. If they aren't thoughtfully considered, the package can fail during shipping, while sitting in inventory, or worse, in the customer's hands.</p>
+          <div style="border-top:1px solid #e7e6df; margin:26px 0 22px;"></div>
+          <p style="font-size:14px; line-height:1.55; font-weight:800; color:#0d0d0d; margin:0 0 2px;">Planning for those interactions early helps ensure the finished package performs exactly as intended.</p>
+        </div>
+
+      </div>
+
+      <!-- CLOSING THESIS -->
+      <div class="pnw-thesis" style="display:flex; align-items:center; gap:26px; margin-top:52px;">
+        <div class="pnw-thesis-rule" style="flex:1; height:1px; background:#d8d7d0;"></div>
+        <img src="uploads/icon-dieline-t.png" alt="" style="flex-shrink:0; width:76px; height:76px; display:block;">
+        <p style="flex: 0 1 auto; text-align: left; font-size: 17px; line-height: 1.45; font-weight: 800; letter-spacing: -0.01em; color: #0d0d0d; margin: 0; max-width: 600px">Experienced packaging teams think beyond the concept stage because the best production problems...are the ones that never happen.</p>
+        <div class="pnw-thesis-rule" style="flex:1; height:1px; background:#d8d7d0;"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PROCESS BAND ===== -->
+  <section id="process" data-screen-label="Process" style="position:relative; background:#0d0d0d; color:#ffffff; overflow:hidden; scroll-margin-top:90px;">
+    <image-slot id="process-band-photo" class="pnw-process-photo" shape="rect" style="position:absolute; top:0; left:0; bottom:0; width:107%; height:100%;" placeholder="production floor photo" src="uploads/print-nw-packaging-manufacturing-process.jpg" role="img" aria-label="Two Print NW team members reviewing a printed sheet during packaging manufacturing"></image-slot>
+    <div class="pnw-process-overlay" style="position:absolute; inset:0; background:linear-gradient(90deg,#0d0d0d 0%,rgba(13,13,13,0.98) 30%,rgba(13,13,13,0.78) 42%,rgba(13,13,13,0.48) 56%,rgba(13,13,13,0.22) 70%,rgba(13,13,13,0.06) 85%,rgba(13,13,13,0) 100%);"></div>
+    <div class="pnw-process-content" style="position:relative; max-width:1280px; margin:0 auto; padding:64px 32px; min-height:420px; display:flex; align-items:center;">
+      <div style="max-width:480px;">
+        <h2 style="font-family: 'Oswald',sans-serif; font-size: clamp(26px,3.2vw,38px); font-weight: 600; line-height: 1.04; letter-spacing: 0.02em; text-transform: uppercase; margin: 0">A Process Built <span style="white-space: nowrap;">For Ease</span></h2>
+        <div style="font-size:24px; font-weight:700; letter-spacing:0; margin:8px 0 0;">One Team. One Process.</div>
+        <div style="width:96px; height:2px; background:var(--accent,#97d700); margin:16px 0 26px;"></div>
+        <p style="font-size: 15px; line-height: 1.6; color: #cfcfca; margin: 0 0 6px"><span style="color:#ffffff; font-weight:700;">Packaging moves through a lot of hands before becoming a final product.</span></p>
+        <p style="font-size: 15px; line-height: 1.6; color: #bdbdb8; margin: 0 0 28px">By keeping structural design, printing, finishing, and manufacturing under one roof, we're able to collaborate closely and catch challenges before they slow things down.</p>
+        <a href="process.html" style="flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center; gap: 10px; white-space: nowrap; background: transparent; color: #ffffff; border: 2px solid var(--accent,#97d700); font-size: 15px; font-weight: 800; letter-spacing: 0.07em; padding: 12px 23px; text-decoration: none; font-family: Oswald" style-hover="background:var(--accent,#97d700); color:#0d0d0d;">EXPLORE THE PROCESS <span style="font-size:19px; line-height:1;">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section data-screen-label="Testimonials" style="padding: 66px 0 64px; background-color: #FAF9F5">
+    <div style="max-width:1280px; margin:0 auto; padding:0 32px;">
+      <h2 style="font-family: 'Oswald',sans-serif; text-align: center; font-size: clamp(26px,3.2vw,38px); font-weight: 600; line-height: 1.04; letter-spacing: 0.02em; text-transform: uppercase; margin: 0 0 18px; color: #000000">Why Teams Keep Coming Back</h2>
+      <div style="width:96px; height:2px; background:var(--accent,#97d700); margin:0 auto 44px;"></div>
+
+      <div class="pnw-testimonial-cards" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(380px,1fr)); gap:28px;">
+
+        <!-- CARD 1 -->
+        <div style="background:#ffffff; border:1px solid #e6e5df; border-radius:16px; padding:34px 36px 30px; box-shadow:0 1px 3px rgba(13,13,13,0.05); display:flex; flex-direction:column;">
+          <div class="pnw-testi-header" style="display:flex; align-items:center; gap:16px;">
+            <div style="flex:1; min-width:0;">
+              <div style="font-size:22px; font-weight:800; letter-spacing:-0.01em; color:#0d0d0d; line-height:1.1;">Neuro<br>Gum</div>
+              <div style="font-size:16px; font-weight:700; color:#3a3a37; margin-top:4px;">Tyler G.</div>
+            </div>
+            <div style="width:137px; height:25px; overflow:hidden; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <img src="uploads/NeuroGum_Black.png" alt="Neuro" style="height:96px; width:auto; flex-shrink:0;">
+            </div>
+            <div style="font-size: 62px; line-height: 0.7; font-weight: 800; color: var(--accent,#97d700); flex-shrink: 0">”</div>
+          </div>
+          <p style="font-size:17px; line-height:1.6; color:#2e2e2b; margin:24px 0 0;">“We've never worked with a more transparent, leaned-in partner than Print NW. Whether it is during the service of regular business, or in helping us innovate and problem solve beyond that, Print NW truly treats us like one of their own.”</p>
+          <div style="border-top:1px solid #e6e5df; margin:26px 0 22px;"></div>
+          <div style="font-size: 13px; font-weight: 800; letter-spacing: 0.08em; color: #000000; margin-bottom: 18px">WHAT CLIENTS VALUE</div>
+          <div data-values-row style="display:flex; flex-wrap:wrap; align-items:center; gap:14px 20px;">
+            <div style="display:flex; align-items:center; gap:10px;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              <span style="font-size:14px; color:#2e2e2b;">Transparency</span>
+            </div>
+            <div data-divider style="width:1px; align-self:stretch; background:#e2e1da;"></div>
+            <div style="display:flex; align-items:center; gap:10px;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+              <span style="font-size:14px; color:#2e2e2b;">Partnership</span>
+            </div>
+            <div data-divider style="width:1px; align-self:stretch; background:#e2e1da;"></div>
+            <div style="display:flex; align-items:center; gap:10px;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"></path><path d="M10 22h4"></path><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"></path></svg>
+              <span style="font-size:14px; color:#2e2e2b;">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div style="background:#ffffff; border:1px solid #e6e5df; border-radius:16px; padding:34px 36px 30px; box-shadow:0 1px 3px rgba(13,13,13,0.05); display:flex; flex-direction:column;">
+          <div class="pnw-testi-header" style="display:flex; align-items:center; gap:16px;">
+            <div style="flex:1; min-width:0;">
+              <div style="font-size:22px; font-weight:800; letter-spacing:-0.01em; color:#0d0d0d; line-height:1.1;">Superior Gardens</div>
+              <div style="font-size:16px; font-weight:700; color:#3a3a37; margin-top:4px;">George G.</div>
+            </div>
+            <div style="width:56px; height:56px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <img src="uploads/logo.svg" alt="Superior Gardens" style="max-height:56px; max-width:56px; width:auto; height:auto; object-fit:contain;">
+            </div>
+            <div style="font-size: 62px; line-height: 0.7; font-weight: 800; color: var(--accent,#97d700); flex-shrink: 0">”</div>
+          </div>
+          <p style="font-size:17px; line-height:1.6; color:#2e2e2b; margin:24px 0 0;">“When we ran into an adhesion issue with our pop-tube labels, Print NW helped us work through it. When our cardstock hang tabs weren't punching cleanly and were leaving impressions, they adjusted their production process to prevent it. They also take note of the small things, like our preferred case counts, which makes our workflow smoother. Their willingness to listen and adapt has made them a reliable partner.”</p>
+          <div style="border-top:1px solid #e6e5df; margin:26px 0 22px;"></div>
+          <div style="font-size: 13px; font-weight: 800; letter-spacing: 0.08em; color: #000000; margin-bottom: 18px">WHAT CLIENTS VALUE</div>
+          <div data-values-row style="display:flex; flex-wrap:wrap; align-items:center; gap:14px 20px;">
+            <div style="display:flex; align-items:center; gap:10px;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+              <span style="font-size:14px; color:#2e2e2b;">Adaptability</span>
+            </div>
+            <div data-divider style="width:1px; align-self:stretch; background:#e2e1da;"></div>
+            <div style="display:flex; align-items:center; gap:10px;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+              <span style="font-size:14px; color:#2e2e2b; white-space:nowrap;">Production Expertise</span>
+            </div>
+            <div data-divider style="width:1px; align-self:stretch; background:#e2e1da;"></div>
+            <div style="display:flex; align-items:center; gap:10px;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+              <span style="font-size:14px; color:#2e2e2b;">Attention to Detail</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div style="background:#ffffff; border:1px solid #e6e5df; border-radius:16px; padding:34px 36px 30px; box-shadow:0 1px 3px rgba(13,13,13,0.05); display:flex; flex-direction:column;">
+          <div class="pnw-testi-header" style="display:flex; align-items:center; gap:16px;">
+            <div style="flex:1; min-width:0;">
+              <div style="font-size:22px; font-weight:800; letter-spacing:-0.01em; color:#0d0d0d; line-height:1.1;">Cascade Designs</div>
+              <div style="font-size:16px; font-weight:700; color:#3a3a37; margin-top:4px;">Leah R.</div>
+            </div>
+            <div style="width:140px; height:24px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <img src="uploads/nlogo-cascade.png" alt="Cascade Designs" style="max-height:24px; max-width:140px; width:auto; height:auto; object-fit:contain; filter:invert(1) brightness(0.3);">
+            </div>
+            <div style="font-size: 62px; line-height: 0.7; font-weight: 800; color: var(--accent,#97d700); flex-shrink: 0">”</div>
+          </div>
+          <p style="font-size:17px; line-height:1.6; color:#2e2e2b; margin:24px 0 0;">“Print NW is a reliable and valued partner. Over the past 15+ years we have consistently been happy with the service provided. Whether you are developing new packaging elements, or looking for options to redesign existing items, their team is collaborative, knowledgeable, and highly responsive.”</p>
+          <div style="border-top:1px solid #e6e5df; margin:26px 0 22px;"></div>
+          <div style="font-size: 13px; font-weight: 800; letter-spacing: 0.08em; color: #000000; margin-bottom: 18px">WHAT CLIENTS VALUE</div>
+          <div data-values-row style="display:flex; flex-wrap:wrap; align-items:center; gap:14px 20px;">
+            <div style="display:flex; align-items:center; gap:10px;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+              <span style="font-size:14px; color:#2e2e2b;">Design Expertise</span>
+            </div>
+            <div data-divider style="width:1px; align-self:stretch; background:#e2e1da;"></div>
+            <div style="display:flex; align-items:center; gap:10px;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              <span style="font-size:14px; color:#2e2e2b;">Collaboration</span>
+            </div>
+            <div data-divider style="width:1px; align-self:stretch; background:#e2e1da;"></div>
+            <div style="display:flex; align-items:center; gap:10px;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path><path d="M8 10h.01"></path><path d="M12 10h.01"></path><path d="M16 10h.01"></path></svg>
+              <span style="font-size:14px; color:#2e2e2b;">Responsiveness</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PARTNERS ===== -->
+  <section data-screen-label="Partners" style="background:#0d0d0d; padding:46px 0;">
+    <div style="max-width:1280px; margin:0 auto 26px; padding:0 32px;">
+      <h3 style="font-family:'Oswald',sans-serif; text-align:center; font-size:23px; font-weight:500; letter-spacing:0.03em; color:#ffffff; margin:0;">OUR TRUSTED PARTNERS</h3>
+      <div style="width:96px; height:2px; background:var(--accent,#97d700); margin:16px auto 0;"></div>
+    </div>
+    <div class="pnw-marquee-viewport" style="overflow:hidden; -webkit-mask-image:linear-gradient(90deg, transparent 0, #000 8%, #000 92%, transparent 100%); mask-image:linear-gradient(90deg, transparent 0, #000 8%, #000 92%, transparent 100%);">
+      <div class="pnw-marquee-track" style="display:flex; width:max-content; align-items:center; gap:62px; padding-right:62px;">
+        <img src="uploads/nlogo-victra.png" alt="Victra" style="width:63px; height:57px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img src="uploads/nlogo-verizon.png" alt="Verizon" style="width:134px; height:30px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img src="uploads/wlogo-superior.svg" alt="Superior Gardens" style="width:60px; height:60px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img src="uploads/nlogo-savers.png" alt="Savers" style="width:150px; height:25px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img src="uploads/nlogo-ds.png" alt="DS" style="width:60px; height:60px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img src="uploads/nlogo-cascade.png" alt="Cascade Designs" style="width:200px; height:30px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img src="uploads/nlogo-puget.png" alt="University of Puget Sound" style="width:62px; height:58px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img src="uploads/nlogo-valuevillage.png" alt="Value Village" style="width:196px; height:30px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img src="uploads/nlogo-heritage.png" alt="Heritage Bank" style="width:80px; height:62px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img src="uploads/nlogo-neuro.png" alt="Neuro" style="width:163px; height:30px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img src="uploads/nlogo-canna.png" alt="Canna Pacific" style="width:108px; height:47px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img src="uploads/nlogo-columbia.png" alt="Columbia Bank" style="width:184px; height:30px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img src="uploads/nlogo-rei.png" alt="REI Co-op" style="width:75px; height:48px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img src="uploads/nlogo-fluke.png" alt="Fluke" style="width:160px; height:21px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img src="uploads/nlogo-helly.png" alt="Helly Hansen" style="width:75px; height:48px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img src="uploads/nlogo-milgard.png" alt="Milgard" style="width:66px; height:55px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img src="uploads/nlogo-sprague.png" alt="Sprague" style="width:116px; height:31px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/nlogo-victra.png" alt="" style="width:63px; height:57px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/nlogo-verizon.png" alt="" style="width:134px; height:30px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/wlogo-superior.svg" alt="" style="width:60px; height:60px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/nlogo-savers.png" alt="" style="width:150px; height:25px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/nlogo-ds.png" alt="" style="width:60px; height:60px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/nlogo-cascade.png" alt="" style="width:200px; height:30px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/nlogo-puget.png" alt="" style="width:62px; height:58px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/nlogo-valuevillage.png" alt="" style="width:196px; height:30px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/nlogo-heritage.png" alt="" style="width:80px; height:62px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/nlogo-neuro.png" alt="" style="width:163px; height:30px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/nlogo-canna.png" alt="" style="width:108px; height:47px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/nlogo-columbia.png" alt="" style="width:184px; height:30px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/nlogo-rei.png" alt="" style="width:75px; height:48px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/nlogo-fluke.png" alt="" style="width:160px; height:21px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/nlogo-helly.png" alt="" style="width:75px; height:48px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/nlogo-milgard.png" alt="" style="width:66px; height:55px; opacity:0.82; filter:brightness(0) invert(1);">
+        <img aria-hidden="true" src="uploads/nlogo-sprague.png" alt="" style="width:116px; height:31px; opacity:0.82; filter:brightness(0) invert(1);">
+      
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA + FORM ===== -->
+  <section data-screen-label="Contact" style="padding: 64px 0 70px; background-color: #FAF9F5; scroll-margin-top:90px">
+    <div class="pnw-cta-form-grid" style="position:relative; max-width:1280px; margin:0 auto; padding:0 32px; display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:0; align-items:stretch;">
+      <img class="pnw-cta-img" src="uploads/print-nw-custom-packaging-prototype.jpg" alt="Annotated custom packaging prototype showing dimensions, scored fold lines, structural design, coating and materials" style="position:absolute; top:0; bottom:0; left:32px; width:calc(100% - 64px); height:100%; object-fit:cover; object-position:right center; display:block; background:#0d0d0d;">
+      <div class="pnw-cta-copy" style="position:relative; color:#ffffff; padding:48px 44px;">
+        <h2 style="font-family:'Oswald',sans-serif; font-size:clamp(26px,3.2vw,38px); font-weight:600; line-height:1.04; letter-spacing:0.02em; margin:0 0 4px; text-transform:uppercase;">Start With A<br><span class="pnw-cta-nowrap" style="white-space:nowrap;">Complimentary Prototype</span></h2>
+        <div style="width:96px; height:2px; background:var(--accent,#97d700); margin:16px 0 22px;"></div>
+        <p style="font-size:14.5px; line-height:1.65; color:#bdbdb8; margin:0 0 20px; max-width:330px;">You believe in your product, and so do we. We’ll help you create packaging that is thoughtfully engineered to protect, perform, and stand out in the real world.</p>
+        <p style="font-size:14.5px; line-height:1.5; font-weight:700; color:#ffffff; margin:0 0 30px; max-width:330px;">You don’t need to have all the answers.<br><span style="font-weight:400;">That’s what we’re here for.</span></p>
+        <a class="pnw-cta-btn" href="contact.html#contact-form" style="flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center; gap: 10px; white-space: nowrap; background: transparent; color: #ffffff; border: 2px solid var(--accent,#97d700); font-size: 17px; font-weight: 800; letter-spacing: 0.07em; padding: 14px 26px; text-decoration: none; font-family: Oswald" style-hover="background:var(--accent,#97d700); color:#0d0d0d;">TELL US ABOUT YOUR PROJECT <span style="font-size:22px; line-height:1;">→</span></a>
+      </div>
+      <div class="pnw-cta-spacer" style="position:relative; min-height:320px;"></div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer style="background:#0d0d0d; color:#ffffff; border-top:1px solid #1d1d1d; overflow-x:hidden;">
+    <div class="pnw-footer-grid" style="max-width:1280px; margin:0 auto; padding:40px 32px 34px; display:flex; flex-direction:column; align-items:center; gap:22px; text-align:center;">
+      <div class="pnw-footer-brand" style="line-height:1;">
+        <img src="uploads/PrintNW_White.png" alt="Print NW" style="height:34px; width:auto; display:block; margin:0 auto;">
+        <div class="pnw-footer-tagline" style="font-size:9.5px; font-weight:700; letter-spacing:0.18em; color:var(--accent,#97d700); margin-top:9px;">CUSTOM PACKAGING. DONE RIGHT.</div>
+      </div>
+      <nav class="pnw-footer-nav" style="display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:16px;">
+        <a href="#" style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:#a8a8a3; text-decoration:none;" style-hover="color:#ffffff">HOME</a>
+        <span style="font-size:10px; color:#3a3a37;" aria-hidden="true">·</span>
+        <a href="packaging.html" style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:#a8a8a3; text-decoration:none;" style-hover="color:#ffffff">PACKAGING</a>
+        <span style="font-size:10px; color:#3a3a37;" aria-hidden="true">·</span>
+        <a href="process.html" style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:#a8a8a3; text-decoration:none;" style-hover="color:#ffffff">PROCESS</a>
+        <span style="font-size:10px; color:#3a3a37;" aria-hidden="true">·</span>
+        <a href="about.html" style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:#a8a8a3; text-decoration:none;" style-hover="color:#ffffff">WHO WE ARE</a>
+        <span style="font-size:10px; color:#3a3a37;" aria-hidden="true">·</span>
+        <a href="contact.html" style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:#a8a8a3; text-decoration:none;" style-hover="color:#ffffff">CONTACT</a>
+      </nav>
+      <div class="pnw-footer-contact" style="display:flex; flex-direction:column; align-items:center; gap:7px;">
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=9914+32nd+Ave+S+Lakewood+WA+98499" target="_blank" rel="noopener" style="font-size:13.5px; color:#d8d8d3; text-decoration:none;" style-hover="color:#ffffff">9914 32nd Ave S, Lakewood, WA 98499</a>
+        <a href="tel:+12532842300" style="font-size:13.5px; color:#d8d8d3; text-decoration:none;" style-hover="color:#ffffff">(253) 284-2300</a>
+        <a href="mailto:packaging@printnw.net" style="font-size:13.5px; color:#d8d8d3; text-decoration:none;" style-hover="color:#ffffff">packaging@printnw.net</a>
+      </div>
+      <div style="font-size:12px; letter-spacing:0.04em; color:#7a7a76;">© 2026 Print NW. All rights reserved.</div>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;accentColor&quot;: { &quot;editor&quot;: &quot;color&quot;, &quot;default&quot;: &quot;#97d700&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;options&quot;: [&quot;#97d700&quot;, &quot;#ff5a1f&quot;, &quot;#22d3a6&quot;, &quot;#3b82f6&quot;] }
+}">
+class Component extends DCLogic {
+  state = { menuOpen: false, heroVideoSrc: null };
+  videoEl = null;
+
+  onHeroVideoError = (e) => {
+    const v = e.currentTarget, err = v && v.error;
+    console.error('[Print NW] Hero video failed to load:', (v && (v.currentSrc || v.getAttribute('src'))) || '(no src)', err ? 'MediaError code ' + err.code + (err.message ? ' - ' + err.message : '') : '');
+  };
+
+  setVideoEl = (el) => {
+    this.videoEl = el;
+    if (el && !el.__pnwErr) { el.__pnwErr = true; el.addEventListener('error', this.onHeroVideoError); }
+    if (el) { el.muted = true; el.loop = true; el.playsInline = true; el.play().catch(() => {}); }
+  };
+
+  toggleMenu = () => this.setState(s => ({ menuOpen: !s.menuOpen }));
+  closeMenu = () => this.setState({ menuOpen: false });
+
+  alignValueDividers = () => {
+    document.querySelectorAll('[data-values-row]').forEach(row => {
+      let prevItem = null;
+      let pendingDivider = null;
+      Array.from(row.children).forEach(child => {
+        if (child.hasAttribute('data-divider')) { pendingDivider = child; return; }
+        if (prevItem) {
+          const wrapped = child.offsetTop > prevItem.offsetTop + 1;
+          if (pendingDivider) pendingDivider.style.display = wrapped ? 'none' : '';
+        }
+        prevItem = child;
+        pendingDivider = null;
+      });
+    });
+  };
+
+  componentDidMount() {
+    this.onResizeMenu = () => {
+      if (window.innerWidth >= 900 && this.state.menuOpen) this.setState({ menuOpen: false });
+      this.alignValueDividers();
+    };
+    window.addEventListener('resize', this.onResizeMenu);
+    this.onKeyDown = (e) => {
+      if (e.key === 'Escape' && this.state.menuOpen) this.setState({ menuOpen: false });
+    };
+    document.addEventListener('keydown', this.onKeyDown);
+    requestAnimationFrame(this.alignValueDividers);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.onResizeMenu);
+    document.removeEventListener('keydown', this.onKeyDown);
+  }
+
+  renderVals() {
+    const accent = this.props.accentColor || '#97d700';
+    return {
+      accent,
+      heroVideoSrc: this.state.heroVideoSrc,
+      setVideoEl: this.setVideoEl,
+      menuOpen: this.state.menuOpen,
+      menuClosed: !this.state.menuOpen,
+      menuButtonLabel: this.state.menuOpen ? 'Close menu' : 'Open menu',
+      toggleMenu: this.toggleMenu,
+      closeMenu: this.closeMenu,
+    };
+  }
+}
+</script>
+</body>
+</html>

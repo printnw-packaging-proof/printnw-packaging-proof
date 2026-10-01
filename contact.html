@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Contact Print NW | Start Your Packaging Project</title>
+<meta name="description" content="Tacoma/Seattle-area packaging team serving the Pacific Northwest and western U.S. Tell Print NW about your project, whether it’s an idea or an existing package.">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;}
+  body{margin:0;background:#f4f3ee;}
+  html{scroll-behavior:smooth;}
+  ::placeholder{color:#9a9a95;}
+  input:focus,select:focus,textarea:focus{outline:none;border-color:#0d0d0d;}
+  .contact-grid{display:grid; grid-template-columns:1.5fr 1fr; grid-template-areas:"intro tag" "form tag"; column-gap:88px; row-gap:28px; align-items:start;}
+  .contact-grid .area-intro{grid-area:intro;}
+  .contact-grid .area-form{grid-area:form;}
+  .contact-grid .area-tag{grid-area:tag; display:flex; justify-content:center; min-width:0;}
+  @media (max-width:449px){
+    .contact-form-row{grid-template-columns:1fr !important;}
+  }
+  @media (max-width:834px){
+    .contact-info-grid{grid-template-columns:repeat(2,1fr) !important; grid-template-rows:repeat(2,1fr) !important; row-gap:48px !important;}
+    .contact-info-grid > div::before{display:none !important;}
+  }
+  @media (max-width:1049px){
+    .contact-grid{grid-template-columns:1fr; grid-template-areas:"intro" "form";}
+    .contact-grid .area-tag{display:none;}
+  }
+  @media (max-width: 899px) {
+    .pnw-desktop-nav { display: none !important; }
+    .pnw-hamburger-btn { display: flex !important; }
+  }
+  @media (max-width: 360px) {
+    .pnw-tagline { font-size: 7.5px !important; letter-spacing: 0.13em !important; }
+  }
+  .pnw-hero-br { display: none; }
+  .pnw-hero-sp { display: none; }
+  @media (max-width: 360px) {
+    .pnw-hero-br2 { display: none; }
+    .pnw-hero-sp { display: inline; }
+  }
+  @media (max-width: 881px) {
+    .pnw-hero-br { display: inline; }
+  }
+  @media (max-width: 767px) {
+    .pnw-hero-h1 { font-size: clamp(32.5px, calc(29.59px + 0.748vw), 35.33px) !important; }
+  }
+  @media (max-width: 899px) {
+    .pnw-footer-grid { padding: 34px 24px 30px !important; gap: 20px !important; }
+    .pnw-footer-tagline { white-space: nowrap; }
+  }
+  @media (max-width: 520px) {
+    .pnw-footer-nav { gap: 10px !important; }
+    .pnw-footer-contact { gap: 8px !important; }
+  }
+  @media (max-width: 300px) {
+    .pnw-footer-tagline { font-size: 7.5px !important; letter-spacing: 0.14em !important; }
+  }
+</style>
+</helmet>
+<template id="__bundler_thumbnail">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <rect width="100" height="100" fill="#0d0d0d"></rect>
+    <rect x="30" y="30" width="40" height="40" rx="4" fill="none" stroke="#97d700" stroke-width="3"></rect>
+    <text x="50" y="57" font-family="Arial, sans-serif" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">PNW</text>
+  </svg>
+</template>
+<div data-screen-label="Contact" style="--accent: {{ accent }}; font-family:'Archivo',sans-serif; color:#0d0d0d; background:#f4f3ee; -webkit-font-smoothing:antialiased;">
+
+  <!-- ===== HEADER ===== -->
+  <header style="position:sticky; top:0; z-index:50; background:#0d0d0d; border-bottom:1px solid #1d1d1d;">
+    <div style="max-width:1440px; margin:0 auto; padding:18px 24px; display:flex; align-items:center; justify-content:space-between; gap:24px;">
+      <div style="line-height:1;">
+        <img src="uploads/PrintNW_White.png" alt="Print NW" style="height:41px; width:auto; display:block;">
+        <div class="pnw-tagline" style="font-size:9px; font-weight:700; letter-spacing:0.18em; color:var(--accent,#97d700); margin-top:8px; white-space:nowrap;">CUSTOM PACKAGING. DONE RIGHT.</div>
+      </div>
+      <nav class="pnw-desktop-nav" style="display:flex; align-items:center; gap:30px;">
+        <a href="index.html" style="font-size:13px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none;">HOME</a>
+        <a href="packaging.html" style="font-size:13px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none;">PACKAGING</a>
+        <a href="process.html" style="font-size:13px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none;">PROCESS</a>
+        <a href="about.html" style="font-size:13px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none;">WHO WE ARE</a>
+        <a href="#" style="font-size:13px; font-weight:700; letter-spacing:0.08em; color:var(--accent,#97d700); text-decoration:none; padding-bottom:6px; border-bottom:2px solid var(--accent,#97d700);">CONTACT</a>
+      </nav>
+      <button type="button" class="pnw-hamburger-btn" aria-label="{{ menuButtonLabel }}" aria-expanded="{{ menuOpen }}" aria-controls="pnw-contact-mobile-nav" onClick="{{ toggleMenu }}" style="display:none; align-items:center; justify-content:center; width:40px; height:40px; flex-shrink:0; background:transparent; border:1px solid #3a3a37; padding:0; cursor:pointer;">
+        <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#e8e8e6" stroke-width="2" stroke-linecap="round"><line x1="5" y1="5" x2="19" y2="19"></line><line x1="19" y1="5" x2="5" y2="19"></line></svg>
+        </sc-if>
+        <sc-if value="{{ menuClosed }}" hint-placeholder-val="{{ true }}">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#e8e8e6" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </sc-if>
+      </button>
+    </div>
+    <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
+      <nav id="pnw-contact-mobile-nav" aria-label="Mobile" style="position:absolute; top:100%; left:0; right:0; background:#0d0d0d; border-top:1px solid #1d1d1d; border-bottom:1px solid #1d1d1d; display:flex; flex-direction:column; align-items:flex-end; padding:8px 24px 18px;">
+        <a href="index.html" onClick="{{ closeMenu }}" style="font-size:16px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none; padding:19px 0; border-bottom:1px solid #1d1d1d; text-align:right; width:100%;">HOME</a>
+        <a href="packaging.html" onClick="{{ closeMenu }}" style="font-size:16px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none; padding:19px 0; border-bottom:1px solid #1d1d1d; text-align:right; width:100%;">PACKAGING</a>
+        <a href="process.html" onClick="{{ closeMenu }}" style="font-size:16px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none; padding:19px 0; border-bottom:1px solid #1d1d1d; text-align:right; width:100%;">PROCESS</a>
+        <a href="about.html" onClick="{{ closeMenu }}" style="font-size:16px; font-weight:700; letter-spacing:0.08em; color:#e8e8e6; text-decoration:none; padding:19px 0; border-bottom:1px solid #1d1d1d; text-align:right; width:100%;">WHO WE ARE</a>
+        <a href="#" onClick="{{ closeMenu }}" style="font-size:16px; font-weight:700; letter-spacing:0.08em; color:var(--accent,#97d700); text-decoration:none; padding:19px 0; text-align:right; width:100%;">CONTACT US</a>
+      </nav>
+    </sc-if>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section data-screen-label="Contact Hero" style="position:relative; background:#0d0d0d; color:#ffffff; overflow:hidden;">
+    <video ref="{{ setVideoEl }}" src="uploads/print-nw-contact-hero.mp4" preload="auto" poster="uploads/print-nw-contact-hero-poster.jpg" autoplay="" loop="" muted="" playsinline="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center center;"></video>
+    <div style="position:relative; max-width:1280px; margin:0 auto; padding:72px 32px 80px;">
+      <div style="max-width:680px; background:rgba(0,0,0,0.9); padding:48px; display:inline-block;">
+        <h1 class="pnw-hero-h1" style="font-family:'Oswald',sans-serif; font-size:clamp(32px,4.6vw,52px); font-weight:600; line-height:1.05; letter-spacing:0.01em; margin:0; text-transform:uppercase;">Your Packaging Journey<br class="pnw-hero-br"> Starts Here</h1>
+        <div style="width:96px; height:2px; background:var(--accent,#97d700); margin:34px 0 30px;"></div>
+        <p style="font-size:15px; line-height:1.65; color:#FFFFFF; margin:0; max-width:460px;">Tell us what you're working on.<br class="pnw-hero-br2"><span class="pnw-hero-sp"> </span>We'd love to hear about it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FORM + SIDEBAR ===== -->
+  <section id="contact-form" data-screen-label="Contact Form" style="scroll-margin-top: 110px; background:#f4f3ee;">
+    <div class="contact-grid" style="max-width:1280px; margin:0 auto; padding:72px 32px 88px;">
+
+      <!-- intro -->
+      <div class="area-intro">
+        <h2 style="font-family:'Oswald',sans-serif; font-size:clamp(26px,3.2vw,38px); font-weight:600; line-height:1.04; letter-spacing:0.02em; margin:0; text-transform:uppercase;">Tell Us About Your Project</h2>
+        <div style="width:96px; height:2px; background:var(--accent,#97d700); margin:16px 0 26px;"></div>
+        <p ref="{{ introRef }}" style="font-size:14.5px; line-height:1.7; color:#3a3a37; margin:0; max-width:620px;">You might be starting with an idea, a sketch, or a finished packaging design. Or you might simply have a product you're excited about and need help figuring out the rest. Whatever brought you here, we'd love to hear about it.</p>
+        <p style="font-size:14.5px; line-height:1.7; color:#3a3a37; margin:18px 0 0; max-width:620px;">Based in Lakewood, Washington, we work with packaging customers throughout the Pacific Northwest and across the western United States.</p>
+      </div>
+
+      <!-- form column -->
+      <div class="area-form">
+        <form onSubmit="{{ onSubmit }}" style="display:flex; flex-direction:column; gap:22px;">
+          <div class="contact-form-row" style="display:grid; grid-template-columns:1fr 1fr; gap:22px;">
+            <div>
+              <label for="contact-name" style="display:block; font-size:13.5px; font-weight:700; color:#0d0d0d; margin-bottom:8px;">Your Name <span style="color:var(--accent,#97d700);">*</span></label>
+              <input id="contact-name" type="text" required="" style="width:100%; padding:13px 14px; border:1px solid #cfcec8; background:#ffffff; font-family:'Archivo',sans-serif; font-size:13.5px; color:#0d0d0d;">
+            </div>
+            <div>
+              <label for="contact-company" style="display:block; font-size:13.5px; font-weight:700; color:#0d0d0d; margin-bottom:8px;">Company</label>
+              <input id="contact-company" type="text" style="width:100%; padding:13px 14px; border:1px solid #cfcec8; background:#ffffff; font-family:'Archivo',sans-serif; font-size:13.5px; color:#0d0d0d;">
+            </div>
+          </div>
+          <div class="contact-form-row" style="display:grid; grid-template-columns:1fr 1fr; gap:22px;">
+            <div>
+              <label for="contact-email" style="display:block; font-size:13.5px; font-weight:700; color:#0d0d0d; margin-bottom:8px;">Email <span style="color:var(--accent,#97d700);">*</span></label>
+              <input id="contact-email" type="email" required="" style="width:100%; padding:13px 14px; border:1px solid #cfcec8; background:#ffffff; font-family:'Archivo',sans-serif; font-size:13.5px; color:#0d0d0d;">
+            </div>
+            <div>
+              <label for="contact-phone" style="display:block; font-size:13.5px; font-weight:700; color:#0d0d0d; margin-bottom:8px;">Phone <span style="font-weight:400; color:#7a7a76;">(Optional)</span></label>
+              <input id="contact-phone" type="tel" style="width:100%; padding:13px 14px; border:1px solid #cfcec8; background:#ffffff; font-family:'Archivo',sans-serif; font-size:13.5px; color:#0d0d0d;">
+            </div>
+          </div>
+          <div>
+            <label for="contact-help" style="display:block; font-size:13.5px; font-weight:700; color:#0d0d0d; margin-bottom:8px;">How can we help? <span style="color:var(--accent,#97d700);">*</span></label>
+            <p style="font-size:13px; line-height:1.6; color:#7a7a76; margin:0 0 10px;">Tell us about your product and anything you think would be helpful for us to know. Whether you have a lot of details or just a few, we'll help you find the right place to start.</p>
+            <textarea id="contact-help" ref="{{ helpBoxRef }}" required="" rows="5" style="width:100%; padding:13px 14px; border:1px solid #cfcec8; background:#ffffff; font-family:'Archivo',sans-serif; font-size:13.5px; color:#0d0d0d; resize:vertical;"></textarea>
+          </div>
+          <div>
+            <label for="contact-file" style="display:block; font-size:13.5px; font-weight:700; color:#0d0d0d; margin-bottom:8px;">File Upload <span style="font-weight:400; color:#7a7a76;">(Optional)</span></label><p style="font-size:13px; font-weight:700; line-height:1.6; color:#0d0d0d; margin:0 0 4px;">Have something you'd like to share?</p>
+            <p style="font-size:13px; line-height:1.6; color:#7a7a76; margin:0 0 12px;">Photos of your product, packaging artwork, packaging sketches, or an existing package can all be helpful.</p>
+            
+            <label style="display:flex; align-items:center; gap:14px; border:1.5px dashed #cfcec8; background:#ffffff; padding:22px 24px; cursor:pointer;">
+              <input id="contact-file" type="file" style="display:none;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+              <span style="font-size:13.5px; color:#3a3a37;">Drag and drop files here<br><span style="color:var(--accent,#97d700); font-weight:700;">or click to browse</span></span>
+            </label>
+          </div>
+          <div>
+            <button type="submit" style="background: #0d0d0d; color: #ffffff; border: none; font-size: 13px; font-weight: 800; letter-spacing: 0.08em; padding: 15px 34px; cursor: pointer; text-transform: uppercase" style-hover="background:#262625;">{{ submitLabel }}</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- sidebar: hang-tag card -->
+      <div class="area-tag" ref="{{ sidebarRef }}">
+        <div style="{{ tagWrapStyle }}">
+          <img src="uploads/Just the tag.png" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:contain;">
+          <div style="position:absolute; left:20.61%; top:21.48%; width:58.30%; height:60.48%;">
+            <div style="{{ headingGroupStyle }}">
+              <h3 style="font-family: 'Oswald',sans-serif; font-size: 30px; font-weight: 700; line-height: 1.05; letter-spacing: 0.01em; text-transform: uppercase; margin: 0; color: #0d0d0d; text-align: left">Every<br>Project<br>Deserves…</h3>
+            </div>
+            <div style="{{ checklistGroupStyle }}">
+              <div style="{{ checklistRowGapStyle }}">
+                <div style="{{ checkRow1 }}">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <div style="font-size:12.5px; font-weight:500; color:#0d0d0d; line-height:1.25;">Trusted Packaging Experts</div>
+                </div>
+                <div style="{{ checkRow2 }}">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <div style="font-size:12.5px; font-weight:500; color:#0d0d0d; line-height:1.25;">Countless Custom Solutions</div>
+                </div>
+                <div style="{{ checkRow3 }}">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <div style="font-size:12.5px; font-weight:500; color:#0d0d0d; line-height:1.25;">Comprehensive Process</div>
+                </div>
+                <div style="{{ checkRow4 }}">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <div style="font-size:12.5px; font-weight:500; color:#0d0d0d; line-height:1.25;">Collaboration Where It Counts</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ===== WHAT HAPPENS NEXT ===== -->
+  <section style="background:#0d0d0d; color:#ffffff; min-height:270px; display:flex; align-items:center; justify-content:center;">
+    <div style="max-width:1280px; margin:0 auto; padding:58px 32px; text-align:center;">
+      <h3 style="font-family:'Oswald',sans-serif; font-size:clamp(26px,3.2vw,38px); font-weight:600; line-height:1.04; letter-spacing:0.02em; text-transform:uppercase; margin:0;">What Happens Next?</h3>
+      <div style="width:96px; height:2px; background:var(--accent,#97d700); margin:16px auto 26px;"></div>
+      <p style="font-size:15px; line-height:1.6; color:#bdbdb8; margin:0 auto; max-width:720px;">Every project is different. We'll review your information, answer questions, and help determine whether Print NW is the right fit for your packaging needs.<br><br><span style="display:inline-block; position:relative; top:-10px;">Still defining the project? Exploring a physical prototype? Already production-ready?</span><br><br><span style="font-weight:700; color:#ffffff; display:inline-block;">We’ll help you move forward with confidence.</span></p>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT INFO BAND ===== -->
+  <section style="background:#faf9f5; color:#0d0d0d; min-height:270px; display:flex; align-items:center;">
+    <div class="contact-info-grid" style="width:100%; max-width:1280px; margin:0 auto; padding:59px 32px; display:grid; grid-template-columns:repeat(4,1fr); gap:32px;">
+      <div style="display:flex; flex-direction:column; align-items:center; text-align:center; gap:12px; position:relative;" style-before="content:''; position:absolute; right:-16px; top:50%; transform:translateY(-50%); height:140px; width:1px; background:#d8d7d0;">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        <div style="font-size:14.5px; font-weight:700;">Phone</div>
+        <div style="font-size:13px; color:#5a5a56; line-height:1.5;">(253) 284-2300<br>Mon–Fri, 8:00am–5:00pm PT</div>
+      </div>
+      <div class="cib-email" style="display:flex; flex-direction:column; align-items:center; text-align:center; gap:12px; position:relative;" style-before="content:''; position:absolute; right:-16px; top:50%; transform:translateY(-50%); height:140px; width:1px; background:#d8d7d0;">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        <div style="font-size:14.5px; font-weight:700;">Email</div>
+        <div style="font-size:13px; color:#5a5a56; line-height:1.5;">packaging@printnw.net</div>
+      </div>
+      <div style="display:flex; flex-direction:column; align-items:center; text-align:center; gap:12px; position:relative;" style-before="content:''; position:absolute; right:-16px; top:50%; transform:translateY(-50%); height:140px; width:1px; background:#d8d7d0;">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        <div style="font-size:14.5px; font-weight:700;">Address</div>
+        <div style="font-size:13px; color:#5a5a56; line-height:1.5;">9914 32nd Ave S<br>Lakewood, WA 98499</div>
+      </div>
+      <div style="display:flex; flex-direction:column; align-items:center; text-align:center; gap:12px;">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--accent,#97d700)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        <div style="font-size:14.5px; font-weight:700;">Business Hours</div>
+        <div style="font-size:13px; color:#5a5a56; line-height:1.5;">Mon–Fri, 8:00am–5:00pm PT</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer style="background:#0d0d0d; color:#ffffff; border-top:1px solid #1d1d1d; overflow-x:hidden;">
+    <div class="pnw-footer-grid" style="max-width:1280px; margin:0 auto; padding:40px 32px 34px; display:flex; flex-direction:column; align-items:center; gap:22px; text-align:center;">
+      <div class="pnw-footer-brand" style="line-height:1;">
+        <img src="uploads/PrintNW_White.png" alt="Print NW" style="height:34px; width:auto; display:block; margin:0 auto;">
+        <div class="pnw-footer-tagline" style="font-size:9.5px; font-weight:700; letter-spacing:0.18em; color:var(--accent,#97d700); margin-top:9px;">CUSTOM PACKAGING. DONE RIGHT.</div>
+      </div>
+      <nav class="pnw-footer-nav" style="display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:16px;">
+        <a href="index.html" style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:#a8a8a3; text-decoration:none;" style-hover="color:#ffffff">HOME</a>
+        <span style="font-size:10px; color:#3a3a37;" aria-hidden="true">·</span>
+        <a href="packaging.html" style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:#a8a8a3; text-decoration:none;" style-hover="color:#ffffff">PACKAGING</a>
+        <span style="font-size:10px; color:#3a3a37;" aria-hidden="true">·</span>
+        <a href="process.html" style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:#a8a8a3; text-decoration:none;" style-hover="color:#ffffff">PROCESS</a>
+        <span style="font-size:10px; color:#3a3a37;" aria-hidden="true">·</span>
+        <a href="about.html" style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:#a8a8a3; text-decoration:none;" style-hover="color:#ffffff">WHO WE ARE</a>
+        <span style="font-size:10px; color:#3a3a37;" aria-hidden="true">·</span>
+        <a href="#" style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:#a8a8a3; text-decoration:none;" style-hover="color:#ffffff">CONTACT</a>
+      </nav>
+      <div class="pnw-footer-contact" style="display:flex; flex-direction:column; align-items:center; gap:7px;">
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=9914+32nd+Ave+S+Lakewood+WA+98499" target="_blank" rel="noopener" style="font-size:13.5px; color:#d8d8d3; text-decoration:none;" style-hover="color:#ffffff">9914 32nd Ave S, Lakewood, WA 98499</a>
+        <a href="tel:+12532842300" style="font-size:13.5px; color:#d8d8d3; text-decoration:none;" style-hover="color:#ffffff">(253) 284-2300</a>
+        <a href="mailto:packaging@printnw.net" style="font-size:13.5px; color:#d8d8d3; text-decoration:none;" style-hover="color:#ffffff">packaging@printnw.net</a>
+      </div>
+      <div style="font-size:12px; letter-spacing:0.04em; color:#7a7a76;">© 2026 Print NW. All rights reserved.</div>
+    </div>
+  </footer>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;headingOffsetX&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:7,&quot;min&quot;:-200,&quot;max&quot;:200,&quot;step&quot;:1,&quot;unit&quot;:&quot;px&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Tag content offsets&quot;},&quot;headingOffsetY&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:37,&quot;min&quot;:-200,&quot;max&quot;:200,&quot;step&quot;:1,&quot;unit&quot;:&quot;px&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Tag content offsets&quot;},&quot;checklistOffsetX&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:3,&quot;min&quot;:-200,&quot;max&quot;:200,&quot;step&quot;:1,&quot;unit&quot;:&quot;px&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Tag content offsets&quot;},&quot;checklistOffsetY&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:63,&quot;min&quot;:-200,&quot;max&quot;:200,&quot;step&quot;:1,&quot;unit&quot;:&quot;px&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Tag content offsets&quot;},&quot;checklistItemGap&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:15,&quot;min&quot;:0,&quot;max&quot;:40,&quot;step&quot;:1,&quot;unit&quot;:&quot;px&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Tag content offsets&quot;}}">
+class Component extends DCLogic {
+  state = { submitted: false, progress: 0, tagWidth: 300, tagHeight: 450, tagMarginTop: 20, heroVideoSrc: null, menuOpen: false };
+
+  toggleMenu = () => this.setState(s => ({ menuOpen: !s.menuOpen }));
+  closeMenu = () => this.setState({ menuOpen: false });
+  sidebarRef = React.createRef();
+  introRef = React.createRef();
+  helpBoxRef = React.createRef();
+  videoEl = null;
+
+  onHeroVideoError = (e) => {
+    const v = e.currentTarget, err = v && v.error;
+    console.error('[Print NW] Hero video failed to load:', (v && (v.currentSrc || v.getAttribute('src'))) || '(no src)', err ? 'MediaError code ' + err.code + (err.message ? ' - ' + err.message : '') : '');
+  };
+
+  setVideoEl = (el) => {
+    this.videoEl = el;
+    if (el && !el.__pnwErr) { el.__pnwErr = true; el.addEventListener('error', this.onHeroVideoError); }
+    if (el) {
+      el.muted = true;
+      el.loop = true;
+      el.playsInline = true;
+      el.play().catch(() => {});
+    }
+  };
+
+  componentDidMount() {
+    if (location.hash === '#contact-form') {
+      let tries = 0;
+      const go = () => {
+        const el = document.getElementById('contact-form');
+        if (el) window.scrollTo(0, el.getBoundingClientRect().top + window.scrollY - (parseFloat(getComputedStyle(el).scrollMarginTop) || 0));
+        else if (tries++ < 40) setTimeout(go, 50);
+      };
+      setTimeout(go, 0);
+      setTimeout(go, 400);
+    }
+    this.onScroll = () => {
+      if (this.rafId) return;
+      this.rafId = requestAnimationFrame(() => {
+        this.rafId = null;
+        this.updateProgress();
+      });
+    };
+    window.addEventListener('scroll', this.onScroll, { passive: true });
+    window.addEventListener('resize', this.onScroll);
+    this.updateProgress();
+
+    this.measureTag = () => {
+      const introEl = this.introRef.current, taEl = this.helpBoxRef.current, wrapEl = this.sidebarRef.current;
+      if (!introEl || !taEl || !wrapEl) return;
+      const introRect = introEl.getBoundingClientRect();
+      const taRect = taEl.getBoundingClientRect();
+      const wrapRect = wrapEl.getBoundingClientRect();
+      // the PNG canvas (1024x1536) has transparent padding around the actual tag graphic;
+      // the visible tag spans roughly y=102..1324 of that canvas
+      const topFrac = 102 / 1536;
+      const bottomFrac = 1324 / 1536;
+      const visualSpan = bottomFrac - topFrac;
+      const baseTop = introRect.top;
+      const baseBottom = taRect.bottom;
+      let height = Math.max(200, (baseBottom - baseTop) / visualSpan);
+      let containerTop = baseBottom - bottomFrac * height;
+      let visualTop = containerTop + topFrac * height;
+      const minVisualTop = wrapRect.top - 56;
+      if (visualTop < minVisualTop) {
+        height = (baseBottom - minVisualTop) / visualSpan;
+        containerTop = baseBottom - bottomFrac * height;
+      }
+      const tagMarginTop = containerTop - wrapRect.top;
+      let tagWidth = height * (1024 / 1536);
+      const maxWidth = Math.max(200, wrapRect.width - 8);
+      if (tagWidth > maxWidth) {
+        tagWidth = maxWidth;
+        height = tagWidth * (1536 / 1024);
+        containerTop = baseBottom - bottomFrac * height;
+      }
+      this.setState({ tagWidth, tagHeight: height, tagMarginTop: containerTop - wrapRect.top });
+    };
+    window.addEventListener('resize', this.measureTag);
+    this._resizeObserver = new ResizeObserver(() => this.measureTag());
+    if (this.helpBoxRef.current) this._resizeObserver.observe(this.helpBoxRef.current);
+    if (this.introRef.current) this._resizeObserver.observe(this.introRef.current);
+    // measuring can itself change column widths (text reflow), so settle over a couple frames
+    setTimeout(() => {
+      this.measureTag();
+      requestAnimationFrame(() => requestAnimationFrame(() => this.measureTag()));
+    }, 0);
+    this.onResizeMenu = () => {
+      if (window.innerWidth >= 900 && this.state.menuOpen) this.setState({ menuOpen: false });
+    };
+    window.addEventListener('resize', this.onResizeMenu);
+    this.onKeyDown = (e) => {
+      if (e.key === 'Escape' && this.state.menuOpen) this.setState({ menuOpen: false });
+    };
+    document.addEventListener('keydown', this.onKeyDown);
+  }
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.onScroll);
+    window.removeEventListener('resize', this.onScroll);
+    window.removeEventListener('resize', this.measureTag);
+    window.removeEventListener('resize', this.onResizeMenu);
+    document.removeEventListener('keydown', this.onKeyDown);
+    if (this._resizeObserver) this._resizeObserver.disconnect();
+    if (this.rafId) cancelAnimationFrame(this.rafId);
+  }
+  updateProgress() {
+    const el = this.sidebarRef.current;
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    const triggerY = window.innerHeight * 0.85;
+    let progress = (triggerY - rect.top) / (rect.height * 0.7);
+    progress = Math.max(0, Math.min(1, progress));
+    if (progress !== this.state.progress) this.setState({ progress });
+  }
+
+  renderVals() {
+    const heroVideoSrc = this.state.heroVideoSrc;
+    const accent = this.props.accentColor || '#97d700';
+    const tagWrapStyle = {
+      position: 'relative',
+      width: this.state.tagWidth,
+      height: this.state.tagHeight,
+      marginTop: this.state.tagMarginTop,
+      transform: 'translateX(-25px)',
+    };
+    const rowBase = { display: 'flex', alignItems: 'center', gap: 12, padding: 0 };
+    // each row reveals across its own slice of the overall scroll progress
+    const mkRow = (start, end) => {
+      let local = (this.state.progress - start) / (end - start);
+      local = Math.max(0, Math.min(1, local));
+      return {
+        ...rowBase,
+        opacity: local,
+        transform: `translateY(${(1 - local) * 14}px)`,
+        transition: 'opacity 0.15s linear, transform 0.15s linear',
+      };
+    };
+    return {
+      accent,
+      heroVideoSrc,
+      setVideoEl: this.setVideoEl,
+      submitLabel: this.state.submitted ? 'THANK YOU ✓' : 'Send',
+      onSubmit: (e) => { e.preventDefault(); this.setState({ submitted: true }); },
+      sidebarRef: this.sidebarRef,
+      introRef: this.introRef,
+      helpBoxRef: this.helpBoxRef,
+      tagWrapStyle,
+      headingGroupStyle: `position:relative; left:${this.props.headingOffsetX ?? 0}px; top:${this.props.headingOffsetY ?? 0}px;`,
+      checklistGroupStyle: `position:relative; left:${this.props.checklistOffsetX ?? 0}px; top:${this.props.checklistOffsetY ?? 0}px;`,
+      checklistRowGapStyle: `display:flex; flex-direction:column; gap:${this.props.checklistItemGap ?? 10}px;`,
+      checkRow1: mkRow(0, 0.25),
+      checkRow2: mkRow(0.25, 0.5),
+      checkRow3: mkRow(0.5, 0.75),
+      checkRow4: mkRow(0.75, 1),
+      menuOpen: this.state.menuOpen,
+      menuClosed: !this.state.menuOpen,
+      menuButtonLabel: this.state.menuOpen ? 'Close menu' : 'Open menu',
+      toggleMenu: this.toggleMenu,
+      closeMenu: this.closeMenu,
+    };
+  }
+}
+
+</script>
+</body>
+</html>
